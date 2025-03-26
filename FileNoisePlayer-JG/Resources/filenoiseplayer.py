@@ -34,7 +34,7 @@ gridFrame = Frame(root, bg='white')
 gridFrame.place(relx=0.5, rely=1, anchor="c", relheight=1, relwidth=1)
 gridFrame.grid_columnconfigure((0, 1, 2), weight=1)
 
-sliderLabel = Label(frame, text='Welcome to the Random Noise Player, by Joshua Gamble', bg='white', font=('Helvetica', 15, 'bold', 'underline'))
+sliderLabel = Label(frame, text='Welcome to the Random Noise Player', bg='white', font=('Helvetica', 15, 'bold', 'underline'))
 subLabel = Label(frame, text='Pick min - max random time, amount of play times, and .wav or .mp3 file. Please read README.txt for more info', bg='white', font=('Helvetica', 8, 'italic'))
 sliderLabel.pack()
 subLabel.pack(pady = 5)
